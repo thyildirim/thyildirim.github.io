@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    color: #777;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-top: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    color: #333;
+}
+
+.profile, .experience, .education, .skills {
+    margin-bottom: 20px;
+}
+
+.profile p, .experience p, .education p, .skills p {
+    margin: 10px 0;
+}
+
+.experience h3, .education h3 {
+    margin-bottom: 5px;
+}
