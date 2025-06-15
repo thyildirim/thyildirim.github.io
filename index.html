@@ -2,99 +2,147 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Taha Yıldırım</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume - Taha Yıldırım</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="https://github.com/thyildirim.png" type="image/x-icon" />
+
+    <meta property="og:title" content="Taha Yıldırım - Backend Developer Resume" />
+    <meta property="og:description"
+        content="Experienced backend developer with a strong foundation in scalable system design and cloud infrastructure." />
+    <meta property="og:image" content="https://github.com/thyildirim.png" />
+    <meta property="og:type" content="website" />
 </head>
 
 <body>
-    <div class="container">
-        <header>
+
+    <header>
+        <div>
             <h1>Taha Yıldırım</h1>
-            <p>Email: taha0yldrm@outlook.com | Telephone: +905469376074</p>
-            <p>Location: Bursa, Turkiye</p>
-        </header>
-        <section class="profile">
-            <h2 class="section-title">Profile</h2>
             <p>
+                Email: <a href="mailto:Tahayıldırım1327@gmail.com">tahay587@gmail.com</a><br>
+                LinkedIn: <a href="https://linkedin.com/in/tahayildirimm"
+                    target="_blank">linkedin.com/in/tahayildirimm/</a><br>
+                GitHub: <a href="https://github.com/thyildirim" target="_blank">github.com/thyildirim</a><br>
+                Location: Bursa, Turkey
+            </p>
+        </div>
+        <img src="https://github.com/thyildirim.png" alt="Taha Yıldırım" width="100" />
+    </header>
 
-                I’m a Backend Developer studying Computer Engineering at Bursa Uludag University. 
-                I enjoy working on projects that make a difference.
-                With a strong interest in software development, I’ve built projects using FastAPI, Django, Docker, and Nginx for backend systems. 
+    <main>
+        <section>
+            <h2>Profile</h2>
+            <p>
+                I’m a Computer Engineering student passionate about backend development. I have experience building web
+                applications using Django, FastAPI, and Docker. I enjoy solving real-world problems through technology
+                and continuously improving my skills.
+            </p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <p>
+                <strong>Bursa Uludag University</strong><br />
+                Computer Engineering<br />
+                September 2020 - June 2025
             </p>
 
         </section>
 
-        <section class="education">
-            <h2 class="section-title">Education</h2>
+        <section>
+            <h2>Employment</h2>
 
-            <h3>Bursa Uludag University</h3>
-            <p>Computer Engineering</p>
-            <p>September 2021 - Present</p>
 
-            <h3>Alanya Anatolian High School</h3>
-            <p> September 2016 - June 2020</p>
-      
 
-        </section>
-
-        <section class="experience">
-            <h2 class="section-title">Experience</h2>
-            <h3>Internship METU Parabol Software Company</h3>
-            <p>July 2024 - September 2024</p>
-            <p>
-            Backend Development using FastAPI and Django.
-            </p>
-
-            <h3>Asynchronous Number Guessing Game </h3>
-            <p>
-               I developed a game project using Django. I used  message queues with RabbitMQ.
-               This architecture runs asynchronous. The functions try to guess the incoming number.
-                The results are recorded in a database and finally I dockerized the project. 
-            </p>
-
-            <h3> API Gateway Implementation for Different Microservices</h3>
-                <p>
-                    I configured Nginx in Docker as an API Gateway, in order to manage different microservices with only one hostname.
-                    I routed the traffic depending on the request URL.
-
-                </p>
-          
-            <h3>
-                Library Management Project
-            </h3>
-            <p>
-              I developed a simple fullstack library management system using Django. 
-                The system includes features such as user authentication and crud operations on books.
-                I implemented basic templates for the user interface. 
-                I utilized version control with Git.
-            </p>
-
-            <h3>
-            Genomic Data Encryption and Similarity Analysis Web Application
-            </h3>
-            <p>
-            Developed a web-based application that encrypts DNA sequences and performs similarity analysis using homomorphic encryption techniques.
-                The system ensures privacy-preserving DNA comparisons without exposing raw genomic data.            </p>
-            
-        </section>
-
-        <section class="skills">
-            <h2 class="section-title">Skills</h2>
-           <ul> 
-              <li> B1 level English</li>
-              <li>Proficient in Python</li>
-               <li>Hands on Experience with C, Html, Css, Boostrap, Java</li> 
-                <li>Strong understanding of RESTful APIs and web services</li> 
-                <li>Microservice Architecture with message queue systems</li> 
-                <li>Experience with version control systems (e.g., Git)</li> 
-                <li>Problem-solving and analytical skills</li> 
-
-               
+            <article>
+                <h3>Back End Intern - Parabol Software</h3>
+                <p><strong>Jul 2024 - Sep 2024</strong></p>
+            </article>
+            <ul>
+                <li>Assisted in developing backend features using <strong>FastAPI</strong> and <strong>Django</strong>
+                </li>
+                <li>Worked with <strong>PostgreSQL</strong> and <strong>MongoDB</strong> for data modeling and
+                    management</li>
+                <li>Contributed to containerization of services using <strong>Docker</strong> 
+                <li>Integrated <strong>JWT-based authentication</strong> and implemented secure RESTful APIs</li>
+                <li>Participated in team code reviews and followed <strong>Git-based version control and CI/CD workflows</strong></li>
+                <li>Improved performance and scalability by optimizing database queries and request handling</li>
+                <li>Collaborated with cross-functional teams to deliver and test microservice-based features</li>
             </ul>
         </section>
-    </div>
+
+        <section>
+            <h2>Projects</h2>
+
+            <article>
+                <h3>DNA Encryption</h3>
+                <p><strong>Nov 2024 - Jun 2025</strong></p>
+                <ul>
+                    <li>Developed a web app to encrypt DNA sequences using <strong>RSA</strong>, <strong>Honey</strong>,
+                        and <strong>Homomorphic Encryption</strong></li>
+                    <li>Compared encrypted DNA data without decryption using <strong>Hamming Distance</strong> and
+                        <strong>LCS</strong>
+                    </li>
+                    <li>Enabled privacy-preserving genetic similarity analysis (e.g., paternity tests)</li>
+                    <li>Built using <strong>Django</strong>, <strong>Django REST Framework</strong>,
+                        <strong>JavaScript</strong>, <strong>HTML/CSS</strong>
+                    </li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Library Management</h3>
+                <p><strong>Sep 2024</strong></p>
+                <ul>
+                    <li>Created a web-based system to manage library books and user accounts</li>
+                    <li>Used <strong>Django</strong>, <strong>HTML/CSS/JavaScript</strong>, and
+                        <strong>PostgreSQL</strong>
+                    </li>
+                    <li>Dockerized the application and used <strong>Nginx</strong> as a reverse proxy for routing and
+                        performance</li>
+                    <li>Implemented <strong>JWT authentication</strong> to protect user data</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>SplitMind: Number Guessing Game with Microservice Architecture</h3>
+                <p><strong>Aug 2024 - Sep 2024</strong></p>
+                <ul>
+                    <li>Built a number guessing game with two independent <strong>FastAPI microservices</strong></li>
+                    <li>Each service generates random numbers and tries to guess the target number</li>
+                    <li>Handled inter-service communication using <strong>RabbitMQ</strong> message queues</li>
+                    <li>Demonstrated asynchronous messaging and scalable, event-driven design</li>
+                    <li>Containerized with Docker for deployment and testing</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>FastAPI Microservices Connected via Nginx Reverse Proxy</h3>
+                <p><strong>Aug 2024</strong></p>
+                <ul>
+                    <li>Connected two FastAPI servers using <strong>Nginx</strong> as a reverse proxy</li>
+                    <li>Three components: two FastAPI apps and one Nginx server on separate ports</li>
+                    <li>Project is fully dockerized with <strong>Docker</strong> and <strong>Docker Compose</strong> for
+                        easy setup</li>
+                </ul>
+            </article>
+        </section>
+
+
+        <section>
+            <h2>Skills & Technologies</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> C, C++, Python, JavaScript </li>
+                <li><strong>Frameworks & Tools:</strong> Django, FastAPI, Docker, Git, Nginx
+                </li>
+                <li><strong>Databases & Messaging:</strong> PostgreSQL, MongoDB, RabbitMQ</li>
+                <li><strong>Design & Architecture:</strong> Clean Architecture, Microservices, RESTful APIs</li>
+            </ul>
+        </section>
+    </main>
+
 </body>
+
 </html>
