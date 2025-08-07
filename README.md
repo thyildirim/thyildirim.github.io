@@ -17,6 +17,6 @@ A personal website project hosted on GitHub to showcase my portfolio, CV, and re
 
 ## Live Site
 
-[View Website](https://thyildirim.github.io/portfolio-site) 
+[View Website](https://thyildirim.github.io) 
 
 
